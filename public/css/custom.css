@@ -1196,7 +1196,8 @@ li.active span.round-tabs.one{
 
 
 .nav.nav-pills.mynav {
-    padding: 45px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .logo-box {
