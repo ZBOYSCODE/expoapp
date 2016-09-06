@@ -69,9 +69,9 @@ class ClienteController extends ControllerBase
                     $response[] = $floor_limit;
                 }
                 else {
-                    echo "2";
+                    //echo "2";
                     #si el min != max, traemos 3 numeros random entre el min y max
-                    $response = $random->generateIntegers(3, (int)$floor_limit, (int)$ceil_limit);
+                    $response = $random->generateIntegers(1, (int)$floor_limit, (int)$ceil_limit);
                 }
 
                 #traemos los usuarios dependiendo de la respuesta del random.
