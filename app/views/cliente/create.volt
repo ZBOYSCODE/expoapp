@@ -15,7 +15,7 @@
 
         <div class="text-center">
             <a class="btn btn-md btn-default" href=" {{ url("") }}">
-                <i class="fa fa-bars"></i> Menú
+                <i class="fa fa-bars"></i> Inicio
             </a>
         </div>
 
@@ -65,7 +65,10 @@
                                 <span class="hidden text-danger" id="error-comment"></span>
                             </div>
                         </div>
-                        <div class="col-xs-12">
+
+                        <input type="hidden" id="default" name="assessment" checked="true" value="1">
+                        <!--
+                        <div class="col-xs-12 hidden">
                             <div class="form-group">
                                 <label for="rut">Evaluación </label>
                                 <label><i><small>(Apreciación del Expositor)</small></i> </label>
@@ -103,7 +106,7 @@
 
                                 <span class="hidden text-danger" id="error-assessment"></span>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
 
                     <div class="row">

@@ -7,24 +7,22 @@
         {{ image("img/logo-z-med.png", "height":"120", "class" : "img-responsive") }}
     </div>
 
+    <br>
+    <br>
+    <br>
+
+
+    <div style="text-align:center; color:gray;">
+        <p><i>
+            Ingresa tus datos para recibir información adicional
+        </i></p>
+    </div>
 
     <ul class="nav nav-pills nav-pills-primary mynav">
         <li  class="active1">
             <a href="{{ url("cliente/new") }}">
                 <i class="fa fa-user-plus"></i>
                 Nuevo Registro
-            </a>
-        </li>
-        <li class="active2">
-            <a href="{{ url("cliente/list") }}" >
-                <i class="fa fa-list"></i>
-                Listar Registros
-            </a>
-        </li>
-        <li  class="active3">
-            <a href="{{ url("cliente/sorteo") }}">
-                <i class="fa fa-gift"></i>
-                Sortear
             </a>
         </li>
     </ul>
